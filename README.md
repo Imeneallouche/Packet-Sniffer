@@ -1,3 +1,3 @@
 # Packet-Sniffer
 
-Developed a packet sniffer using python programming language for cybersecurity research reasons
+a python packet sniffer that deals with sevel protocol types (TCP, UDP, ICMP, GGP, IGMP,...) - still under development 
