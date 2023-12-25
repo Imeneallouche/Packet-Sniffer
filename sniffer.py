@@ -2,9 +2,11 @@ import socket
 from Ethernet.ethernet_frame import Ethernet
 from IPv4.IPv4 import IPv4
 
-from ICMP.icmp import ICMP
-from TCP.tcp import TCP
-from UDP.udp import UDP
+from Protocols.ICMP.icmp import ICMP
+from Protocols.TCP.tcp import TCP
+from Protocols.UDP.udp import UDP
+
+from PCAPS.pcap import Pcap
 
 from Utilities.general import format_multi_line
 
